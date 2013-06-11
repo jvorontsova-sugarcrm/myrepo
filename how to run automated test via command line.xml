@@ -1,0 +1,37 @@
+-------------------------------------------------------------------
+*	SETUP
+-------------------------------------------------------------------
+java -jar VooDooDriver.jar --browser=firefox --suite=/home/sugar/voodoo/SodaIceBox/soda/suites/sugarinit.xml --gvar="scriptsdir::/home/sugar/voodoo/SodaIceBox/soda/tests" --gvar="url::http://localhost/65_EntJoneses9175" --plugin="/home/sugar/voodoo/SodaIceBox/soda/tests/plugins/sugarwait.xml" --attachtimeout=3 --savehtml=all
+
+
+java -jar VooDooDriver.jar --browser=firefox --suite=/home/sugar/voodoo/SodaIceBox/soda/suites/sugarinit.xml --gvar="scriptsdir::/home/sugar/voodoo/SodaIceBox/soda/tests" --gvar="url::http://172.30.1.23/65_EntJoneses9181" --plugin="/home/sugar/voodoo/SodaIceBox/soda/tests/plugins/sugarwait.xml" --attachtimeout=3 --savehtml=all
+
+java -jar VooDooDriver.jar --browser=firefox --suite=/home/sugar/voodoo/SodaIceBox/soda/suites/sugarinit.xml --gvar="scriptsdir::/home/sugar/voodoo/SodaIceBox/soda/tests" --gvar="url::http://172.30.1.23/SugarEnt_658_8597" --plugin="/home/sugar/voodoo/SodaIceBox/soda/tests/plugins/sugarwait.xml" --attachtimeout=3 --savehtml=all
+
+
+-------------------------------------------------------------------
+*	RUN TEST
+-------------------------------------------------------------------
+java -jar VooDooDriver.jar --browser=firefox --suite=/home/sugar/voodoo/SodaIceBox/soda/tests/modules/accounts/65_Joneses/Accounts_14644.xml --gvar="scriptsdir::/home/sugar/voodoo/SodaIceBox/soda/tests" --gvar="url::http://localhost/65_EntJ9162" --plugin="/home/sugar/voodoo/SodaIceBox/soda/tests/plugins/sugarwait.xml" --attachtimeout=3 --savehtml=all
+
+-------------------------------------------------------------------
+*	RUN SUITE
+-------------------------------------------------------------------
+java -jar VooDooDriver.jar --browser=firefox --suite=/home/sugar/voodoo/SodaIceBox/soda/suites/accounts-part1.xml --gvar="scriptsdir::/home/sugar/voodoo/SodaIceBox/soda/tests" --gvar="url::http://localhost/65_EntJ9162" --plugin="/home/sugar/voodoo/SodaIceBox/soda/tests/plugins/sugarwait.xml" --attachtimeout=3 --savehtml=all
+-------------------------------------------------------------------
+java -jar VooDooDriver.jar --browser=firefox --suite=/home/sugar/voodoo/SodaIceBox/soda/suites/admin.xml --gvar="scriptsdir::/home/sugar/voodoo/SodaIceBox/soda/tests" --gvar="url::http://localhost/65_EntJoneses9171" --plugin="/home/sugar/voodoo/SodaIceBox/soda/tests/plugins/sugarwait.xml" --attachtimeout=3 --savehtml=all
+
+
+-------------------------------------------------------------------
+java -jar VooDooDriver.jar --browser=firefox --suite=/home/sugar/voodoo/SodaIceBox/soda/suites/roles.xml --gvar="scriptsdir::/home/sugar/voodoo/SodaIceBox/soda/tests" --gvar="url::http://172.30.1.23/65_EntJoneses9181" --plugin="/home/sugar/voodoo/SodaIceBox/soda/tests/plugins/sugarwait.xml" --attachtimeout=3 --savehtml=all
+
+
+java -jar VooDooDriver.jar --browser=firefox --suite=/home/sugar/voodoo/SodaIceBox/soda/suites/projects.xml --gvar="scriptsdir::/home/sugar/voodoo/SodaIceBox/soda/tests" --gvar="url::http://localhost/65_EntJoneses9175" --plugin="/home/sugar/voodoo/SodaIceBox/soda/tests/plugins/sugarwait.xml" --attachtimeout=3 --savehtml=all
+
+
+java -jar VooDooDriver.jar --browser=firefox --suite=/home/sugar/voodoo/SodaIceBox/soda/suites/documents.xml --gvar="scriptsdir::/home/sugar/voodoo/SodaIceBox/soda/tests" --gvar="url::http://localhost/65_EntJoneses9166" --plugin="/home/sugar/voodoo/SodaIceBox/soda/tests/plugins/sugarwait.xml" --attachtimeout=3 --savehtml=all
+
+java -jar VooDooDriver.jar --browser=firefox --suite=/home/sugar/voodoo/SodaIceBox/soda/suites/studio-part1.xml --gvar="scriptsdir::/home/sugar/voodoo/SodaIceBox/soda/tests" --gvar="url::http://localhost/65_EntJoneses9170" --plugin="/home/sugar/voodoo/SodaIceBox/soda/tests/plugins/sugarwait.xml" --attachtimeout=3 --savehtml=all
+
+
+java -jar VooDooDriver.jar --browser=firefox --suite=/home/sugar/voodoo/SodaIceBox/soda/suites/campaigns-part3.xml --gvar="scriptsdir::/home/sugar/voodoo/SodaIceBox/soda/tests" --gvar="url::http://172.30.1.23/65_EntJoneses9179" --plugin="/home/sugar/voodoo/SodaIceBox/soda/tests/plugins/sugarwait.xml" --attachtimeout=3 --savehtml=all
